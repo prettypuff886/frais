@@ -9,8 +9,10 @@ window.addEventListener('scroll', function(){
 /*toggle button*/
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const topBar = document.getElementsByClassName('bar-toggle')[0]
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
+    topBar.classList.toggle('active')
 })
 
 
